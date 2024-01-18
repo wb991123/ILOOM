@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 /* -------------------------------header---------------------------------- */
+/* ======|   헤더    | ===================================*/
+
 #header .modal_wrap {
   position: absolute;
   top: 0;
@@ -218,6 +220,8 @@
 }
 
 
+
+
 /* 서브메뉴 */
 
 #header .bg .gnb>li .sub {
@@ -239,8 +243,8 @@
   position: absolute;
   font-family: 'nanum';
   font-weight: 400;
-  right: 0;
-  top: 40px;
+  right: -350px;
+  top: 0px;
 }
 #header .bg .util>li {
   float: left;
@@ -267,7 +271,6 @@
   color: #fff;
   background-color: #cb0000;
 }
-
 
 
 
