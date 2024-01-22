@@ -21,6 +21,13 @@
           $('.bg').stop().animate({ height: '100px' }, 100);
         });
 
+        $(".menu>ul>li").click(function(){
+          let aa = $(this).index();
+          $(".menu>ul>li").removeClass("on");
+          $(".menu>ul>li").eq(aa).addClass("on");
+        });
+        
+
         // 이미지 슬라이더 설정
         let $imageSlider = $('#imageSlider');
         let currentIndex = 0;
