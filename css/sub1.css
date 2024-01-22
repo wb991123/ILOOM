@@ -296,6 +296,12 @@
 
 
 /* ----------메인메뉴버튼--------- */
+
+#section .menu ul li.on{
+  color: #cb0000;
+}
+
+
 #section .menu {
   margin-top: 850px;
   font-family: 'nanum';
